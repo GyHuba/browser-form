@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Browser Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="submit">
+        <div class="input-container">
+          <input type="text" id="email" name="email" placeholder="EMAIL" />
+          <span class="error email-error"></span>
+        </div>
+        <div class="input-container">
+          <input
+            type="text"
+            id="country"
+            name="country"
+            placeholder="COUNTRY"
+          />
+          <span class="error country-error"></span>
+        </div>
+        <div class="input-container">
+          <input
+            type="number"
+            id="zip-code"
+            name="zip-code"
+            placeholder="ZIP CODE"
+          />
+          <span class="error zip-code-error"></span>
+        </div>
+        <div class="input-container">
+          <input
+            type="text"
+            id="password"
+            name="password"
+            placeholder="PASSWORD"
+          />
+          <span class="error password-error"></span>
+        </div>
+        <div class="input-container">
+          <input
+            type="text"
+            id="repassword"
+            name="repassword"
+            placeholder="PASSWORD AGAIN"
+          />
+          <span class="error repassword-error"></span>
+        </div>
+        <button type="submit">REGISTER</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
