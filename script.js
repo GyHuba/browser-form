@@ -95,8 +95,8 @@ function isValidUSZip(sZip) {
 }
 
 form.addEventListener("submit", (event) => {
+  event.preventDefault();
   if (!email.validity.valid) {
     console.log("invalid");
-    event.preventDefault();
   }
 });
